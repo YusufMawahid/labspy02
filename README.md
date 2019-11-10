@@ -1,7 +1,15 @@
 -pertama kita buat folder labspy02 -kemudian klik kanan tambah new text dokumen dengan format.py -kemudian di python shell, ketikan coding: def tes(): a=int(input("bilangan1 =")) b=int(input("bilangan2 =")) c=int(input("bilangan3 ="))
 
+a = int(input("bilangan 1 ="))
+b = int(input("bilangan 2 ="))
+c = int(input("bilangan 3 ="))
 
-https://github.com/YusufMawahid/labspy02/blob/master/screenshot/Screenshot%20(15).png
+if a>b and a>c:
+	print(a, "terbesar")
+elif b>a and b>c:
+	print(b, "terbesar")
+else:
+	print(c, "terbesar")
 
 -kemudian klik file ==>save. -kemudian kita panggil python di cmd -ketik d:==> cd labspy02 ==> labspy02.py
 
